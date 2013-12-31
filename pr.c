@@ -280,7 +280,7 @@ char *name[50] = {
 			for(j = 0; j < 50; j++)
 			{
 				if (page50out[j].links[i] == 1)
-					page50out[j].linkin++;
+					page50out[i].linkin++;
 			}
 		}
 		
